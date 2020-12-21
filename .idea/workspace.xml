@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f0678eb-7e1e-4788-ba68-309cefa731a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GoLangTests.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fizzbuzz/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restclient/main/entities.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restclient/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +57,20 @@
       <recent name="$PROJECT_DIR$/fizzbuzz/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLangTests" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/fizzbuzz/main/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLangTests" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/restclient/main/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -77,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
@@ -108,42 +116,42 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="81" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608591957781">
+    <state x="184" y="81" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608594814605">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state x="184" y="81" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.795@0.23.1440.795" timestamp="1608591957781" />
-    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1608592148135">
+    <state x="184" y="81" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.795@0.23.1440.795" timestamp="1608594814605" />
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1608594816562">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1608592148135" />
-    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1608592148135">
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1608594816562" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1608594816561">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="252" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1608592148135" />
-    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1608592148134">
+    <state width="1398" height="252" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1608594816561" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1608594816561">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="252" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1608592148134" />
-    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1608592148135">
+    <state width="1398" height="252" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1608594816561" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1608594816561">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="252" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1608592148135" />
-    <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1608592148136">
+    <state width="1398" height="252" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1608594816561" />
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1608594419232">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.23.1440.795@0.23.1440.795" timestamp="1608592148136" />
-    <state width="1398" height="252" key="GridCell.Tab.1.center" timestamp="1608592148136">
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.23.1440.795@0.23.1440.795" timestamp="1608594419232" />
+    <state width="1398" height="252" key="GridCell.Tab.1.center" timestamp="1608594419232">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="252" key="GridCell.Tab.1.center/0.23.1440.795@0.23.1440.795" timestamp="1608592148136" />
-    <state width="1398" height="252" key="GridCell.Tab.1.left" timestamp="1608592148136">
+    <state width="1398" height="252" key="GridCell.Tab.1.center/0.23.1440.795@0.23.1440.795" timestamp="1608594419232" />
+    <state width="1398" height="252" key="GridCell.Tab.1.left" timestamp="1608594419232">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="252" key="GridCell.Tab.1.left/0.23.1440.795@0.23.1440.795" timestamp="1608592148136" />
-    <state width="1398" height="252" key="GridCell.Tab.1.right" timestamp="1608592148136">
+    <state width="1398" height="252" key="GridCell.Tab.1.left/0.23.1440.795@0.23.1440.795" timestamp="1608594419232" />
+    <state width="1398" height="252" key="GridCell.Tab.1.right" timestamp="1608594419232">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="252" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1608592148136" />
+    <state width="1398" height="252" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1608594419232" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -152,6 +160,11 @@
           <url>file://$PROJECT_DIR$/fizzbuzz/main/main.go</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/restclient/main/main.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
